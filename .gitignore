@@ -1,0 +1,24 @@
+# Log files
+*.log
+/tmp/*.log
+/var/log/*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE folders
+.vscode/
+.idea/
+*.swp
+
+# Backup files
+*~
+*.bak
+
+# System files
+*.pid
+
+# Certbot state (just in case)
+__pycache__/
+acme.json
